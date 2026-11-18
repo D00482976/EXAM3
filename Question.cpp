@@ -34,7 +34,7 @@ void Question::askQuestion(int& score) {
         std::cout << "Wrong! The correct answer was: "
                   << answers[correctAnswer - 1] << std::endl;
     }
-
+    //extra line for asthetics
     std::cout << std::endl;
 }
 

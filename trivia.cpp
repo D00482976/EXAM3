@@ -98,7 +98,7 @@ void QuizGame::createQuestions() {
 
 
 // Play a level
-void QuizGame::playLevel(const int& level) {
+void QuizGame::playLevel(int level) {
 
     int startingScore = score;
 

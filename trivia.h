@@ -18,7 +18,7 @@ public:
 
     void startGame();
     void createQuestions();
-    void playLevel(const int& level);
+    void playLevel(int level);
     void displayScore() const;
 };
 
