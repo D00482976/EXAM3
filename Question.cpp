@@ -10,16 +10,6 @@ Question::Question(const std::string& text,
     correctAnswer = correct;
 }
 
-// Get question text
-std::string Question::getQuestionText() const {
-    return questionText;
-}
-
-// Get answers
-std::vector<std::string> Question::getAnswers() const {
-    return answers;
-}
-
 // Ask the question
 void Question::askQuestion(int& score) {
     int answer;

@@ -16,9 +16,6 @@ public:
              const std::vector<std::string>& choices,
              const int& correct);
 
-    std::string getQuestionText() const;
-    std::vector<std::string> getAnswers() const;
-
     void askQuestion(int& score);
 };
 
