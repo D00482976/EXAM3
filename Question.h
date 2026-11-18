@@ -12,7 +12,6 @@ private:
     int correctAnswer;
 
 public:
-    Question();
     Question(const std::string& text,
              const std::vector<std::string>& choices,
              const int& correct);

@@ -1,12 +1,6 @@
 
 #include "Question.h"
 
-// Default constructor
-Question::Question() {
-    questionText = "";
-    correctAnswer = 0;
-}
-
 // Constructor
 Question::Question(const std::string& text,
                    const std::vector<std::string>& choices,
